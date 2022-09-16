@@ -82,7 +82,7 @@ const total = () => {
                             </div>
                             <div className="total__item total__price">
                                 <span>Total</span>
-                                <span>${total()}</span>
+                                <span>${total().toFixed(2)}</span>
                             </div>
                             <button className="btn btn__checkout no-cursor" onClick={() => alert(`Haven't got around to this yet`)}>
                                 Proceed to checkout
